@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./medios/portadatoyota.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 1%;
+}
+
+#portada {
+    background-image: url(./medios/imagendefondo.jog.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(249, 249, 251);
+    opacity: 0.9;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-image: linear-gradient(to left, orange, white);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    border-radius: 15%;
+    border: 4px solid rgb(252, 152, 3);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 26px;
+    color: black;
+    text-shadow: -2px 3px 7px rgba(0, 0, 0, 0.6);
+    font-size: 3rem;
+    margin-bottom: 1%;
+}
+
+nav ul {
+    display: flex;
+    font-style: italic;
+    background-color: rgba(0, 0, 0, 0.5);
+    list-style: none;
+    padding: 0;
+    border-radius: 15%;
+}
+
+nav li {
+    margin-right: 15px;
+}
+
+nav a {
+    display: flex;
+    color: rgb(220, 230, 241);
+    font-weight: 600;
+    padding: 15px 15px;
+    padding-left: 30px;
+    font-size: 1.4rem;
+}
+
+nav a:hover {
+    border-bottom: 2px solid blue;
+}
+
+.redesSociales {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    right: 50px;
+}
+
+.redesSociales svg {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    margin: 25px 30px;
+    transition: transform 0.2s;
+}
+
+.redesSociales svg:hover {
+    transform: scale(1.8);
+}
+
+#verde {
+    color: #00e676;
+}
+
+#azul {
+    color: blue;
+}
+
+#rojo {
+    color: red;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(32, 23, 23, 0.5);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.ubicacion p {
+    margin: 5px 0;
+}
+
+footer a {
+    display: inline-block;
+    padding: 7px 14px;  
+    background-image: linear-gradient(to left, orange, white);   
+    border-radius: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to bottom, black, grey);
+    font-size: 2.2rem;
+    border-radius: 10%;
+}
+
+ul {
+    color: white;
+    text-decoration: none;
+    font-size: 1.6rem;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.im {
+    display: flex;
+    justify-content: space-around;
+    margin: 1% 0;
+}
+
+.im img {
+    width: 500px;
+    height: 500px;
+    border-radius: 25px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.autos, .camioneta {
+flex-basis: 45%;
+}
+
+/* pagina mantenimiento */
+
+.parrafo{
+    color:rgb(249, 248, 247);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    column-gap: 10px;
+    color:rgb(10, 10, 10);
+    background-image: linear-gradient(to left,rgb(185, 141, 57), white);
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.padre{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 30px;
+    row-gap: 10px;
+    align-content: center;
+    border:5px solid rgb(250, 246, 246);
+    justify-content: center;
+    justify-items: stretch;
+}
+
+
+
+
+
