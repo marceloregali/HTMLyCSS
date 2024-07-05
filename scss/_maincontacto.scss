@@ -1,0 +1,134 @@
+h2 {
+  color: white;
+  text-align: center;
+  background-image: linear-gradient(to bottom, rgb(36, 3, 250), grey);
+  font-size: 2.2rem;
+  border-radius: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.buttons {
+  display: flex;
+  gap: 20px;
+
+  button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-image: linear-gradient(to left, orange, white);
+    border-radius: 5px;
+  }
+}
+
+.section-inputs {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 20px;
+  max-width: 75%;
+  text-align: center;
+  margin-top: 4%;
+  padding-left: 10%;
+
+  label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    input {
+      border: 1px solid transparent;
+      border-radius: 10px;
+      padding: 10px 20px;
+      outline: none;
+      font-size: 14pt;
+      margin: 10px;
+      transition: background-color 0.5s, border 0.5s;
+      color: black;
+
+      &:hover {
+        background-color: #454045;
+        border: 1px solid #f3f3f4;
+        box-shadow: 0 0 4px #754a4a;
+      }
+
+      &:focus {
+        background-color: #212121;
+        border: 1px solid #f3f3f4;
+        box-shadow: 0 0 4px #754a4a;
+      }
+    }
+
+    span {
+      font-weight: 700;
+      font-size: 1.2rem;
+      color: rgb(6, 6, 6);
+      background-image: linear-gradient(to bottom, rgb(36, 3, 250), grey);
+    }
+  }
+
+  .checkbox {
+    display: flex;
+    flex-direction: row;
+
+    input[type="checkbox"] {
+      width: 20px;
+    }
+
+    span {
+      font-weight: 400;
+    }
+  }
+
+  .legales {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 25px;
+    font-size: 1.2rem;
+
+    button {
+      margin-inline: auto;
+    }
+  }
+
+  .submit {
+    background-color: orange;
+    font-weight: 400;
+    border-radius: 10px;
+    width: 45%;
+    padding: 10px;
+    font-size: 13pt;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+
+  #politica {
+    margin: 10px;
+  }
+}
+
+.legales {
+  span {
+    color: rgb(8, 8, 8);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-weight: 400;
+    margin: auto;
+    font-size: 1.4rem;
+    a {
+      color: rgb(4, 16, 250);
+      text-decoration: none;
+      font-weight: 900;
+    }
+  }
+}

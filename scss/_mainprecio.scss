@@ -1,0 +1,54 @@
+h2 {
+  color: white;
+  text-align: center;
+  background-image: linear-gradient(to bottom, rgb(36, 3, 250), grey);
+  font-size: 2.2rem;
+  border-radius: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/* styles.scss */
+
+// Estilos para la sección principal (main)
+main {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+// Estilos para la sección de precios
+.precios {
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+}
+
+// Estilos específicos para el título h2 dentro de .precios
+.precios h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+// Estilos para la tabla de precios
+.price-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.price-table th,
+.price-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.price-table th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+}

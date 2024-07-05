@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+#portada {
+  background-image: url(../medios/imagenProyecto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(249, 249, 251);
+  opacity: 0.9;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+header {
+  background-color: $color-background-header;
+  padding: 10px 0;
+
+  .navbar {
+    background-color: $color-background-header;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+    .navbar-brand {
+      color: $color-primary;
+      font-weight: bold;
+      img {
+        margin-right: 10px;
+      }
+    }
+
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          color: $color-text-header;
+          font-weight: 500;
+          &.active {
+            color: $color-primary;
+          }
+        }
+      }
+    }
+
+    .navbar-toggler-icon {
+      border-color: $color-primary;
+    }
+  }
+}
+h1 {
+  text-align: center;
+  margin-top: 26px;
+  color: black;
+  text-shadow: -2px 3px 7px rgba(0, 0, 0, 0.6);
+  font-size: 2.8rem;
+  margin-bottom: 1%;
+}
+.nav ul a {
+  align-items: center;
+}

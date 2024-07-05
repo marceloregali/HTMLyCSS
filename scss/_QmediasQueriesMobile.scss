@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+@media only screen and (max-width: 480px) {
+  .cabecera {
+    flex-direction: column; /* Cambiar a dirección de columna */
+    align-items: center; /* Centrar horizontalmente */
+    padding: 10px; /* Añadir relleno */
+  }
+
+  /* Estilos para el título */
+  h1 {
+    font-size: 1.8rem;
+    margin-top: 10%;
+  }
+
+  /* Estilos para la navegación */
+  nav {
+    width: 40%; /* Reducir el ancho de la navegación */
+  }
+
+  nav ul {
+    flex-direction: column; /* Cambiar a dirección de columna */
+    padding-right: 0; /* Eliminar el espacio a la derecha */
+    text-align: center; /* Centrar texto */
+  }
+
+  nav ul li {
+    margin: 0; /* Eliminar márgenes */
+  }
+
+  nav ul li a {
+    padding: 4px; /* Ajustar el espacio alrededor de los enlaces */
+    font-size: 1rem;
+  }
+
+  footer {
+    font-size: 1rem;
+    padding: 10px 0;
+  }
+
+  .redesSociales {
+    margin-top: 2%;
+  }
+}
+
+/*Responsive Pagina Accesorios*/
+@media only screen and (max-width: 480px) {
+  .im img {
+    width: 180px;
+    height: 180px;
+    margin-left: 0%;
+  }
+
+  footer {
+    font-size: 1rem;
+    padding: 10px 0;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  ul {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  footer a {
+    font-size: 0.7rem;
+    padding: 5px 12px;
+  }
+}
+
+/*Responsive pagina Mantenimiento*/
+@media only screen and (max-width: 480px) {
+  .confianza {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .confianza h4 {
+    font-size: 1.4rem;
+  }
+
+  .confianza p {
+    font-size: 1rem;
+  }
+
+  .tarjetas {
+    padding: 5%;
+    gap: 20px;
+  }
+
+  .tarjetas h3 {
+    font-size: 1rem;
+    border-radius: 4%;
+  }
+
+  .tarjetas p {
+    font-size: 1rem;
+  }
+}
+
+/*REesponsive modelos*/
+@media only screen and (max-width: 480px) {
+  .sustentabilidad {
+    font-size: 1rem;
+  }
+
+  h5 {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  h2 {
+    font-size: 1.4rem;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+
+  .encabezado {
+    font-size: 1rem;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+  .precios {
+    margin-right: 4%;
+    margin-left: 4%;
+    font-size: 0.9rem;
+  }
+}
+
+/*Responsive Pagina Contacto*/
+@media only screen and (max-width: 480px) {
+  span {
+    font-size: 0.4rem;
+  }
+
+  .legales {
+    font-size: 0.6rem;
+    align-items: center;
+
+    span {
+      font-size: 0.9rem;
+    }
+
+    button {
+      margin: 15px 0px;
+      font-size: 0.8rem;
+    }
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .section-inputs {
+    display: flex;
+    flex-direction: column;
+
+    input {
+      font-size: 0.7rem;
+    }
+  }
+
+  #email {
+    font-size: 0.7rem;
+  }
+
+  #password {
+    font-size: 0.7rem;
+  }
+
+  label {
+    input {
+      width: auto;
+    }
+  }
+}
+
+.ubicacion p {
+  font-size: 1.1rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  label span {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,42 @@
+h2 {
+  color: white;
+  text-align: center;
+  background-image: linear-gradient(to bottom, rgb(36, 3, 250), grey);
+  font-size: 2.2rem;
+  border-radius: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+ul {
+  color: white;
+  text-decoration: none;
+  font-size: 1.6rem;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.im {
+  display: flex;
+  justify-content: space-around;
+  margin: 1% 0;
+
+  img {
+    width: 500px;
+    height: 500px;
+    border-radius: 25px;
+  }
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+
+  .autos,
+  .camioneta {
+    flex-basis: 45%;
+  }
+}

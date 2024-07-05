@@ -1,0 +1,50 @@
+h2 {
+  color: white;
+  text-align: center;
+  background-image: linear-gradient(to bottom, rgb(36, 3, 250), grey);
+  font-size: 2.2rem;
+  border-radius: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.confianza {
+  background-color: rgba(220, 209, 133, 0.9);
+  border-radius: 15px;
+  padding: 15px;
+  margin: 5px auto;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+
+  h4 {
+    font-size: 2.1rem;
+    color: #4542ea;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 1.4rem;
+    color: #070707;
+    line-height: 1.5;
+    margin-bottom: 0;
+  }
+}
+
+.sustentabilidad {
+  background-color: rgba(4, 37, 145, 0.6);
+  font-size: 1.3rem;
+  color: rgb(251, 249, 249);
+  text-align: justify;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding-bottom: 1%;
+  margin-bottom: 2%;
+  border: #fbfbfd solid;
+  border-radius: 2%;
+
+  h5 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+}
