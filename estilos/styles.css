@@ -82,7 +82,7 @@ html {
 }
 
 body {
-  background-image: url(./medios/portadatoyota.jpg);
+  background-image: url(../medios/portadatoyota.jpg);
   -webkit-backdrop-filter: brightness(80%);
   backdrop-filter: brightness(80%);
   background-size: cover;
@@ -94,7 +94,7 @@ body {
 }
 
 #portada {
-  background-image: url(./medios/imagendefondo.jog.webp);
+  background-image: url(../medios/imagenfondo.jpg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   color: rgb(249, 249, 251);
@@ -374,9 +374,9 @@ h2 {
 .tarjeta-imagen {
   width: 100%;
   height: auto;
-  max-height: 600px; /* Ajusta la altura máxima de la imagen */
+  max-height: 600px;
   -o-object-fit: cover;
-  object-fit: cover; /* Asegura que la imagen cubra el espacio disponible */
+  object-fit: cover;
   border: 5px solid #f9b804;
 }
 
@@ -421,17 +421,12 @@ h2 {
 }
 
 .confianza {
-  background-color: rgba(
-    220,
-    209,
-    133,
-    0.9
-  ); /* Fondo blanco semi-transparente */
-  border-radius: 15px; /* Bordes redondeados */
+  background-color: rgba(220, 209, 133, 0.9);
+  border-radius: 15px;
   padding: 15px;
   margin: 5px auto;
-  max-width: 800px; /* Ancho máximo de la sección */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
 
@@ -464,17 +459,12 @@ h2 {
 }
 
 .encabezado {
-  background-color: rgba(
-    220,
-    209,
-    133,
-    0.9
-  ); /* Fondo blanco semi-transparente */
-  border-radius: 15px; /* Bordes redondeados */
+  background-color: rgba(220, 209, 133, 0.9);
+  border-radius: 15px;
   padding: 15px;
   margin: 5px auto;
-  max-width: 800px; /* Ancho máximo de la sección */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   text-align: center;
   font-size: 1.4rem;
   margin-bottom: 2%;
@@ -507,29 +497,29 @@ h2 {
 
 @media only screen and (max-width: 480px) {
   .cabecera {
-    flex-direction: column; /* Cambiar a dirección de columna */
-    align-items: center; /* Centrar horizontalmente */
-    padding: 10px; /* Añadir relleno */
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
   }
-  /* Estilos para el título */
+
   h1 {
     font-size: 1.8rem;
     margin-top: 10%;
   }
-  /* Estilos para la navegación */
+
   nav {
-    width: 40%; /* Reducir el ancho de la navegación */
+    width: 40%;
   }
   nav ul {
-    flex-direction: column; /* Cambiar a dirección de columna */
-    padding-right: 0; /* Eliminar el espacio a la derecha */
-    text-align: center; /* Centrar texto */
+    flex-direction: column;
+    padding-right: 0;
+    text-align: center;
   }
   nav ul li {
-    margin: 0; /* Eliminar márgenes */
+    margin: 0;
   }
   nav ul li a {
-    padding: 4px; /* Ajustar el espacio alrededor de los enlaces */
+    padding: 4px;
     font-size: 1rem;
   }
   footer {
@@ -659,481 +649,33 @@ h2 {
     font-size: 1rem;
   }
 }
-/*html {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
 
-body {
-  background-image: url(./medios/portadatoyota.jpg);
-  backdrop-filter: brightness(80%);
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  margin: 0;
-  padding-top: 1%;
-}
-
-#portada {
-  background-image: url(./medios/imagendefondo.jog.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: rgb(249, 249, 251);
-  opacity: 0.9;
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-/*header {
-  background-image: linear-gradient(to left, orange, white);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.3rem;
-  border-radius: 15%;
-  border: 4px solid rgb(252, 152, 3);
-  margin-left: 1%;
-  margin-right: 1%;
-  margin-bottom: 1%;
-}*/
-/*h1 {
-  text-align: center;
-  margin-top: 26px;
-  color: black;
-  text-shadow: -2px 3px 7px rgba(0, 0, 0, 0.6);
-  font-size: 2.8rem;
-  margin-bottom: 1%;
-}*/
-/*nav ul {
-  display: flex;
-  font-style: italic;
-  background-color: rgba(0, 0, 0, 0.5);
-  list-style: none;
-  padding: 0;
-  border-radius: 15%;
-  margin-right: 1%;
-  font-size: 1rem;
-}
-
-nav li {
-  margin-right: 15px;
-}
-
-nav a {
-  display: flex;
-  color: rgb(220, 230, 241);
-  font-weight: 600;
-  padding: 15px 15px;
-  padding-left: 30px;
-  font-size: 1.4rem;
-}
-
-nav a:hover {
-  border-bottom: 2px solid blue;
-}*/
-/*.redesSociales {
-  margin-top: 100px;
-  display: flex;
-  flex-direction: column;
-  right: 50px;
-}
-
-.redesSociales svg {
-  display: flex;
-  height: 40px;
-  width: 40px;
-  margin: 25px 30px;
-  transition: transform 0.2s;
-  margin-top: 3%;
-}
-
-.redesSociales svg:hover {
-  transform: scale(1.8);
-}
-
-#verde {
-  color: #00e676;
-}
-
-#azul {
-  color: blue;
-}
-
-#rojo {
-  color: red;
-}*/
-/*footer {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(32, 23, 23, 0.8);
-  color: white;
-  padding: 20px 0;
-  text-align: center;
-  position: relative;
-}
-
-.ubicacion p {
-  margin: 5px 0;
-  font-size: 1.4rem;
-}
-
-footer a {
-  display: inline-block;
-  padding: 7px 14px;
-  background-image: linear-gradient(to left, orange, white);
-  border-radius: 5px;
-  font-size: 1rem;
-  text-decoration: none;
-}
-
-main {
-  flex: 1;
-}*/
-/*h2 {
-  color: white;
-  text-align: center;
-  background-image: linear-gradient(to bottom, rgb(36, 3, 250), grey);
-  font-size: 2.2rem;
-  border-radius: 10%;
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
-ul {
-  color: white;
-  text-decoration: none;
-  font-size: 1.6rem;
-  text-align: center;
-  align-items: center;
-  font-weight: bold;
-  list-style-type: none;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.im {
-  display: flex;
-  justify-content: space-around;
-  margin: 1% 0;
-}
-
-.im img {
-  width: 500px;
-  height: 500px;
-  border-radius: 25px;
-}
-
-.contenedor {
-  display: flex;
-  justify-content: space-between;
-}
-
-.autos,
-.camioneta {
-  flex-basis: 45%;
-}
-/* acaaaaaaaaaaaa*/
-/* pagina mantenimiento */
-/*.confianza {
-  background-color: rgba(
-    220,
-    209,
-    133,
-    0.9
-  );
-  border-radius: 15px; 
-  padding: 15px;
-  margin: 5px auto;
-  max-width: 800px; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-  text-align: center;
-}
-
-.confianza h4 {
-  font-size: 2.1rem;
-  color: #4542ea;
-  margin-top: 0%;
-  margin-bottom: 0%;
-}
-
-.confianza p {
-  font-size: 1.4rem;
-  color: #070707;
-  line-height: 1.5;
-  margin-bottom: 0%;
-}*/
-/* Estilos para las tarjetas */
-/*.tarjetas {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 70px;
-  padding: 60px;
-  padding-bottom: 1%;
-}
-
-.tarjeta {
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  max-width: 500px; 
-  text-align: center;
-  overflow: hidden;
-  transition: transform 0.2s;
-}*/
-/*.tarjeta:hover {
-  transform: scale(1.05);
-}
-
-.tarjeta-imagen {
-  width: 100%;
-  height: auto;
-  max-height: 600px; 
-  object-fit: cover; 
-  border: 5px solid #f9b804;
-}
-
-.tarjeta-contenido {
-  padding: 16px;
-}
-
-.tarjeta h3 {
-  margin: 0 0 10px;
-  font-size: 1.5rem;
-  background-color: #8c7af5;
-}
-
-.tarjeta p {
-  color: #060202;
-  font-size: 1.5rem;
-  margin: 0;
-}
-
-.sustentabilidad {
-  background-color: rgba(4, 37, 145, 0.6);
-  font-size: 1.3rem;
-  color: rgb(251, 249, 249);
-  text-align: justify;
-  margin-left: 4%;
-  margin-right: 4%;
-  padding-bottom: 1%;
-  margin-bottom: 2%;
-  border: #fbfbfd solid;
-  border-radius: 2%;
-}
-
-h5 {
-  font-size: 1.8rem;
-  text-align: center;
-}
-
-p {
-  margin-left: 2%;
-  margin-right: 2%;
-  margin-bottom: 1%;
-}*/
-/*Pagina Precios*/
-/*.encabezado {
-  background-color: rgba(
-    220,
-    209,
-    133,
-    0.9
-  ); 
-  border-radius: 15px;
-  padding: 15px;
-  margin: 5px auto;
-  max-width: 800px; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-  text-align: center;
-  font-size: 1.4rem;
-  margin-bottom: 2%;
-}
-
-.precios {
-  background-color: rgba(255, 255, 255, 1);
-  padding: 10px;
-  border-radius: 8px;
-  margin-bottom: 20px;
-  margin-right: 20%;
-  margin-left: 20%;
-}
-
-.price-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.price-table th,
-.price-table td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
-}
-
-.price-table th {
-  background-color: rgba(255, 255, 255, 0.7);
-}*/
-/*Pagina Contacto*/
-/*.buttons {
-  display: flex;
-  gap: 20px;
-}
-
-.section-inputs {
-  display: flex;
-  gap: 10px;
-  width: 100%;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  gap: 20px;
-  max-width: 75%;
-  text-align: center;
-  margin-top: 4%;
-  padding-left: 10%;
-}
-
-label {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-
-  input {
-    border: 1px solid transparent;
-    border-radius: 10px;
-    padding: 10px 20px;
-    outline: none;
-    font-size: 14pt;
-    margin: 10px;
-    transition: background-color 0.5s, border 0.5s;
-    color: black;
-
-    &:hover {
-      background-color: #454045;
-      border: 1px solid #f3f3f4;
-      box-shadow: 0 0 4px #754a4a;
-    }
-
-    &:focus {
-      background-color: #212121;
-      border: 1px solid #f3f3f4;
-      box-shadow: 0 0 4px #754a4a;
-    }
-  }
-
-  span {
-    font-weight: 700;
-    font-size: 1.2rem;
-    color: rgb(6, 6, 6);
-    background-image: linear-gradient(to bottom, rgb(36, 3, 250), grey);
-  }
-}
-
-.checkbox {
-  display: flex;
-  flex-direction: row;
-
-  input[type="checkbox"] {
-    width: 20px;
-  }
-
-  span {
-    font-weight: 400;
-  }
-}
-
-.legales {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  margin-top: 25px;
-  font-size: 1.2rem;
-
-  button {
-    margin-inline: auto;
-  }
-}
-
-.submit {
-  background-color: orange;
-  font-weight: 400;
-  border-radius: 10px;
-  width: 45%;
-  padding: 10px;
-  font-size: 13pt;
-  font-family: Arial, Helvetica, sans-serif;
-  cursor: pointer;
-
-  &:hover {
-    opacity: 0.6;
-  }
-}
-
-.legales {
-  span {
-    color: rgb(8, 8, 8);
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
-    font-weight: 400;
-    margin: auto;
-    font-size: 1.4rem;
-    a {
-      color: rgb(4, 16, 250);
-      text-decoration: none;
-      font-weight: 900;
-    }
-  }
-}
-
-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-image: linear-gradient(to left, orange, white);
-  border-radius: 5px;
-}
-
-#politica {
-  margin: 10px;
-}*/
 /*Responsive index*/
 @media only screen and (max-width: 480px) {
   .cabecera {
-    flex-direction: column; /* Cambiar a dirección de columna */
-    align-items: center; /* Centrar horizontalmente */
-    padding: 10px; /* Añadir relleno */
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
   }
-  /* Estilos para el título */
+
   h1 {
     font-size: 1.8rem;
     margin-top: 10%;
   }
-  /* Estilos para la navegación */
+
   nav {
-    width: 40%; /* Reducir el ancho de la navegación */
+    width: 40%;
   }
   nav ul {
-    flex-direction: column; /* Cambiar a dirección de columna */
-    padding-right: 0; /* Eliminar el espacio a la derecha */
-    text-align: center; /* Centrar texto */
+    flex-direction: column;
+    padding-right: 0;
+    text-align: center;
   }
   nav ul li {
-    margin: 0; /* Eliminar márgenes */
+    margin: 0;
   }
   nav ul li a {
-    padding: 4px; /* Ajustar el espacio alrededor de los enlaces */
+    padding: 4px;
     font-size: 1rem;
   }
   footer {

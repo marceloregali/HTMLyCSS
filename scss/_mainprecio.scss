@@ -8,15 +8,11 @@ h2 {
   margin-right: 20%;
 }
 
-/* styles.scss */
-
-// Estilos para la sección principal (main)
 main {
   background-color: #f2f2f2;
   padding: 20px;
 }
 
-// Estilos para la sección de precios
 .precios {
   background-color: white;
   padding: 20px;
@@ -26,14 +22,12 @@ main {
   max-width: 800px;
 }
 
-// Estilos específicos para el título h2 dentro de .precios
 .precios h2 {
   text-align: center;
   font-size: 1.8rem;
   color: #333;
 }
 
-// Estilos para la tabla de precios
 .price-table {
   width: 100%;
   border-collapse: collapse;

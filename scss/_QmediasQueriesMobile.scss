@@ -1,34 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
 @media only screen and (max-width: 480px) {
   .cabecera {
-    flex-direction: column; /* Cambiar a dirección de columna */
-    align-items: center; /* Centrar horizontalmente */
-    padding: 10px; /* Añadir relleno */
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
   }
 
-  /* Estilos para el título */
   h1 {
     font-size: 1.8rem;
     margin-top: 10%;
   }
 
-  /* Estilos para la navegación */
   nav {
-    width: 40%; /* Reducir el ancho de la navegación */
+    width: 40%;
   }
 
   nav ul {
-    flex-direction: column; /* Cambiar a dirección de columna */
-    padding-right: 0; /* Eliminar el espacio a la derecha */
-    text-align: center; /* Centrar texto */
+    flex-direction: column;
+    padding-right: 0;
+    text-align: center;
   }
 
   nav ul li {
-    margin: 0; /* Eliminar márgenes */
+    margin: 0;
   }
 
   nav ul li a {
-    padding: 4px; /* Ajustar el espacio alrededor de los enlaces */
+    padding: 4px;
     font-size: 1rem;
   }
 
