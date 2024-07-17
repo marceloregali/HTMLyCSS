@@ -2,37 +2,42 @@
   margin-top: 100px;
   display: flex;
   flex-direction: column;
-  right: 50px;
+  right: 20px;
+  margin-bottom: 3%;
+  margin-top: 3%;
 
   svg {
     display: flex;
-    height: 40px;
-    width: 40px;
-    margin: 25px 30px;
+    height: 45px;
+    width: 45px;
+    margin: 10px 20px;
     transition: transform 0.2s;
     margin-top: 3%;
+    margin-left: 4%;
 
     &:hover {
       transform: scale(1.8);
     }
   }
 }
-
 #verde {
-  color: #00e676;
+  color: #39ee97;
 }
-
 #azul {
-  color: blue;
+  color: rgb(121, 125, 231);
 }
-
 #rojo {
-  color: red;
+  color: rgb(228, 3, 3);
 }
 #violeta {
-  color: blueviolet;
+  color: rgb(166, 129, 200);
 }
-
 main {
   flex: 1;
+}
+.slogan {
+  font-size: 1.4rem;
+  text-align: center;
+  background-color: #f9b804;
+  color: black;
 }

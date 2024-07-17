@@ -83,7 +83,7 @@ html {
 
 body {
   background-image: url(../medios/portadatoyota.jpg);
-  -webkit-backdrop-filter: brightness(80%);
+  -webkit-backdrop-filter: brightness(120%);
   backdrop-filter: brightness(80%);
   background-size: cover;
   display: flex;
@@ -109,16 +109,19 @@ body {
   margin-top: 100px;
   display: flex;
   flex-direction: column;
-  right: 50px;
+  right: 20px;
+  margin-bottom: 3%;
+  margin-top: 3%;
 }
 
 .redesSociales svg {
   display: flex;
-  height: 40px;
-  width: 40px;
-  margin: 25px 30px;
+  height: 45px;
+  width: 45px;
+  margin: 10px 20px;
   transition: transform 0.2s;
   margin-top: 3%;
+  margin-left: 4%;
 }
 
 .redesSociales svg:hover {
@@ -126,21 +129,29 @@ body {
 }
 
 #verde {
-  color: #00e676;
+  color: #39ee97;
 }
 
 #azul {
-  color: rgb(44, 3, 247);
+  color: rgb(3, 9, 166);
 }
 
 #rojo {
-  color: red;
+  color: rgb(228, 3, 3);
+}
+#violeta {
+  color: rgb(129, 6, 244);
 }
 
 main {
   flex: 1;
 }
-
+.slogan {
+  font-size: 1.4rem;
+  text-align: center;
+  background-color: #f9b804;
+  color: black;
+}
 footer {
   width: 100%;
   display: flex;
@@ -496,6 +507,11 @@ h2 {
 }
 
 @media only screen and (max-width: 480px) {
+  body {
+    background-size: contain;
+    background-position: center;
+  }
+
   .cabecera {
     flex-direction: column;
     align-items: center;
@@ -522,11 +538,14 @@ h2 {
     padding: 4px;
     font-size: 1rem;
   }
-  footer {
-    font-size: 1rem;
+
+  .redesSociales svg {
+    height: 33px;
+    width: 33px;
   }
-  .redesSociales {
-    margin-top: 2%;
+  .slogan {
+    font-size: 0.9rem;
+    margin-top: 11%;
   }
 }
 /*Responsive Pagina Accesorios*/
@@ -549,9 +568,6 @@ h2 {
   footer a {
     font-size: 0.7rem;
     padding: 5px 12px;
-  }
-  footer {
-    padding: 10px 0;
   }
 }
 /*Responsive pagina Mantenimiento*/
@@ -707,7 +723,7 @@ h2 {
     padding: 5px 12px;
   }
   footer {
-    padding: 10px 0;
+    padding: 2px 0;
   }
 }
 /*Responsive pagina Mantenimiento*/
@@ -800,8 +816,64 @@ h2 {
   font-size: 1.1rem;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  label span {
-    font-size: 1rem;
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+  body {
+    background-size: contain;
+    background-position: center;
   }
-} /*# sourceMappingURL=styles.css.map */
+
+  header {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  nav {
+    margin-left: 2%;
+
+    ul {
+      a {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  label {
+    span {
+      font-size: 1rem;
+    }
+  }
+
+  h1 {
+    font-size: 1.9rem;
+  }
+
+  .redesSociales {
+    width: 70%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+    svg {
+      height: 5%;
+      width: 5%;
+      margin-bottom: 5%;
+    }
+  }
+
+  .ubicacion {
+    p {
+      font-size: 1rem;
+      padding: 0px 0px;
+    }
+  }
+
+  .slogan {
+    font-size: 1rem;
+    margin-top: 4%;
+  }
+
+  footer {
+    padding: 0%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,4 +1,164 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+@media only screen and (max-width: 480px) {
+  body {
+    background-size: contain;
+    background-position: center;
+  }
+
+  .cabecera {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    margin-top: 10%;
+  }
+
+  nav {
+    width: 40%;
+  }
+  nav ul {
+    flex-direction: column;
+    padding-right: 0;
+    text-align: center;
+  }
+  nav ul li {
+    margin: 0;
+  }
+  nav ul li a {
+    padding: 4px;
+    font-size: 1rem;
+  }
+
+  .redesSociales svg {
+    height: 30px;
+    width: 30px;
+  }
+  .slogan {
+    font-size: 0.9rem;
+    margin-top: 13%;
+  }
+}
+/*Responsive Pagina Accesorios*/
+@media only screen and (max-width: 480px) {
+  .im img {
+    width: 180px;
+    height: 180px;
+    margin-left: 0%;
+  }
+  footer {
+    font-size: 1rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  ul {
+    font-size: 1rem;
+    text-align: left;
+  }
+  footer a {
+    font-size: 0.7rem;
+    padding: 5px 12px;
+  }
+}
+/*Responsive pagina Mantenimiento*/
+@media only screen and (max-width: 480px) {
+  .confianza {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .confianza h4 {
+    font-size: 1.4rem;
+  }
+  .confianza p {
+    font-size: 1rem;
+  }
+  .tarjetas {
+    padding: 5%;
+    gap: 20px;
+  }
+  .tarjetas h3 {
+    font-size: 1rem;
+    border-radius: 4%;
+  }
+  .tarjetas p {
+    font-size: 1rem;
+  }
+}
+/*REesponsive modelos*/
+@media only screen and (max-width: 480px) {
+  .sustentabilidad {
+    font-size: 1rem;
+  }
+  h5 {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  h2 {
+    font-size: 1.4rem;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+  .encabezado {
+    font-size: 1rem;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  .precios {
+    margin-right: 4%;
+    margin-left: 4%;
+    font-size: 0.9rem;
+  }
+}
+/*Responsive Pagina Contacto*/
+@media only screen and (max-width: 480px) {
+  span {
+    font-size: 0.4;
+  }
+  .legales {
+    font-size: 0.6rem;
+    align-items: center;
+  }
+  .legales span {
+    font-size: 0.9rem;
+  }
+  .legales button {
+    margin: 15px 0px;
+    font-size: 0.8rem;
+  }
+  .container {
+    width: 90%;
+  }
+  .section-inputs {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-inputs input {
+    font-size: 0.7rem;
+  }
+  #email {
+    font-size: 0.7rem;
+  }
+  #password {
+    font-size: 0.7rem;
+  }
+  label input {
+    width: auto;
+  }
+}
+.ubicacion p {
+  font-size: 1.1rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  label span {
+    font-size: 1rem;
+  }
+}
+
+/*Responsive index*/
 @media only screen and (max-width: 480px) {
   .cabecera {
     flex-direction: column;
@@ -14,32 +174,25 @@
   nav {
     width: 40%;
   }
-
   nav ul {
     flex-direction: column;
     padding-right: 0;
     text-align: center;
   }
-
   nav ul li {
     margin: 0;
   }
-
   nav ul li a {
     padding: 4px;
     font-size: 1rem;
   }
-
   footer {
     font-size: 1rem;
-    padding: 10px 0;
   }
-
   .redesSociales {
     margin-top: 2%;
   }
 }
-
 /*Responsive Pagina Accesorios*/
 @media only screen and (max-width: 480px) {
   .im img {
@@ -47,142 +200,170 @@
     height: 180px;
     margin-left: 0%;
   }
-
   footer {
     font-size: 1rem;
-    padding: 10px 0;
   }
-
   h2 {
     font-size: 1.5rem;
   }
-
   ul {
     font-size: 1rem;
     text-align: left;
   }
-
   footer a {
     font-size: 0.7rem;
     padding: 5px 12px;
   }
+  footer {
+    padding: 2px 0;
+  }
 }
-
 /*Responsive pagina Mantenimiento*/
 @media only screen and (max-width: 480px) {
   .confianza {
     margin-left: 3%;
     margin-right: 3%;
   }
-
   .confianza h4 {
     font-size: 1.4rem;
   }
-
   .confianza p {
     font-size: 1rem;
   }
-
   .tarjetas {
     padding: 5%;
     gap: 20px;
   }
-
   .tarjetas h3 {
     font-size: 1rem;
     border-radius: 4%;
   }
-
   .tarjetas p {
     font-size: 1rem;
   }
 }
-
 /*REesponsive modelos*/
 @media only screen and (max-width: 480px) {
   .sustentabilidad {
     font-size: 1rem;
   }
-
   h5 {
     font-size: 1.2rem;
   }
 }
-
 @media only screen and (max-width: 480px) {
   h2 {
     font-size: 1.4rem;
     margin-right: 2%;
     margin-left: 2%;
   }
-
   .encabezado {
     font-size: 1rem;
     margin-left: 1%;
     margin-right: 1%;
   }
-
   .precios {
     margin-right: 4%;
     margin-left: 4%;
     font-size: 0.9rem;
   }
 }
-
 /*Responsive Pagina Contacto*/
 @media only screen and (max-width: 480px) {
   span {
-    font-size: 0.4rem;
+    font-size: 0.4;
   }
-
   .legales {
     font-size: 0.6rem;
     align-items: center;
-
-    span {
-      font-size: 0.9rem;
-    }
-
-    button {
-      margin: 15px 0px;
-      font-size: 0.8rem;
-    }
   }
-
+  .legales span {
+    font-size: 0.9rem;
+  }
+  .legales button {
+    margin: 15px 0px;
+    font-size: 0.8rem;
+  }
   .container {
     width: 90%;
   }
-
   .section-inputs {
     display: flex;
     flex-direction: column;
-
-    input {
-      font-size: 0.7rem;
-    }
   }
-
+  .section-inputs input {
+    font-size: 0.7rem;
+  }
   #email {
     font-size: 0.7rem;
   }
-
   #password {
     font-size: 0.7rem;
   }
-
-  label {
-    input {
-      width: auto;
-    }
+  label input {
+    width: auto;
   }
 }
-
 .ubicacion p {
   font-size: 1.1rem;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  label span {
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+  body {
+    background-size: contain;
+    background-position: center;
+  }
+
+  header {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  nav {
+    margin-left: 2%;
+
+    ul {
+      a {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  label {
+    span {
+      font-size: 1rem;
+    }
+  }
+
+  h1 {
+    font-size: 1.9rem;
+  }
+
+  .redesSociales {
+    width: 70%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+    svg {
+      height: 5%;
+      width: 5%;
+      margin-bottom: 5%;
+    }
+  }
+
+  .ubicacion {
+    p {
+      font-size: 1rem;
+      padding: 0px 0px;
+    }
+  }
+
+  .slogan {
     font-size: 1rem;
+    margin-top: 4%;
+  }
+
+  footer {
+    padding: 0%;
   }
 }
