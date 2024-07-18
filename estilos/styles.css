@@ -1,13 +1,3 @@
-@charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
 #portada {
@@ -23,7 +13,6 @@
 }
 
 header {
-  background-image: linear-gradient(to left, orange, white);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -33,15 +22,6 @@ header {
   border: 4px solid rgb(252, 152, 3);
   margin-left: 1%;
   margin-right: 1%;
-  margin-bottom: 1%;
-}
-
-h1 {
-  text-align: center;
-  margin-top: 26px;
-  color: black;
-  text-shadow: -2px 3px 7px rgba(0, 0, 0, 0.6);
-  font-size: 2.4rem;
   margin-bottom: 1%;
 }
 
@@ -56,12 +36,10 @@ nav ul {
   font-size: 1rem;
   margin-top: 4%;
 }
-
-nav li {
+nav ul li {
   margin-right: 15px;
 }
-
-nav a {
+nav ul a {
   display: flex;
   color: rgb(220, 230, 241);
   font-weight: 600;
@@ -69,9 +47,17 @@ nav a {
   padding-left: 30px;
   font-size: 1.4rem;
 }
-
-nav a:hover {
+nav ul a:hover {
   border-bottom: 2px solid blue;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 26px;
+  color: black;
+  text-shadow: -2px 3px 7px rgba(0, 0, 0, 0.6);
+  font-size: 2.8rem;
+  margin-bottom: 1%;
 }
 
 html {
@@ -82,9 +68,9 @@ html {
 }
 
 body {
-  background-image: url(../medios/portadatoyota.jpg);
-  -webkit-backdrop-filter: brightness(120%);
-  backdrop-filter: brightness(80%);
+  background-image: url(../medios/imagenProyecto.jpg);
+  -webkit-backdrop-filter: brightness(80%);
+          backdrop-filter: brightness(80%);
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -94,7 +80,7 @@ body {
 }
 
 #portada {
-  background-image: url(../medios/imagenfondo.jpg.webp);
+  background-image: url(./medios/portadatoyota.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: rgb(249, 249, 251);
@@ -113,7 +99,6 @@ body {
   margin-bottom: 3%;
   margin-top: 3%;
 }
-
 .redesSociales svg {
   display: flex;
   height: 45px;
@@ -123,7 +108,6 @@ body {
   margin-top: 3%;
   margin-left: 4%;
 }
-
 .redesSociales svg:hover {
   transform: scale(1.8);
 }
@@ -133,25 +117,28 @@ body {
 }
 
 #azul {
-  color: rgb(3, 9, 166);
+  color: rgb(121, 125, 231);
 }
 
 #rojo {
   color: rgb(228, 3, 3);
 }
+
 #violeta {
-  color: rgb(129, 6, 244);
+  color: rgb(166, 129, 200);
 }
 
 main {
   flex: 1;
 }
+
 .slogan {
   font-size: 1.4rem;
   text-align: center;
   background-color: #f9b804;
   color: black;
 }
+
 footer {
   width: 100%;
   display: flex;
@@ -163,12 +150,10 @@ footer {
   text-align: center;
   position: relative;
 }
-
-.ubicacion p {
+footer .ubicacion p {
   margin: 5px 0;
   font-size: 1.4rem;
 }
-
 footer a {
   display: inline-block;
   padding: 7px 14px;
@@ -205,7 +190,6 @@ ul {
   justify-content: space-around;
   margin: 1% 0;
 }
-
 .im img {
   width: 500px;
   height: 500px;
@@ -216,10 +200,16 @@ ul {
   display: flex;
   justify-content: space-between;
 }
-
-.autos,
-.camioneta {
+.contenedor .autos,
+.contenedor .camioneta {
   flex-basis: 45%;
+}
+
+.slogan {
+  font-size: 1.4rem;
+  text-align: center;
+  background-color: #f9b804;
+  color: black;
 }
 
 h2 {
@@ -235,6 +225,12 @@ h2 {
 .buttons {
   display: flex;
   gap: 20px;
+}
+.buttons button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-image: linear-gradient(to left, orange, white);
+  border-radius: 5px;
 }
 
 .section-inputs {
@@ -254,14 +250,13 @@ form {
   padding-left: 10%;
   margin-left: 8%;
 }
-
-label {
+form label {
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
-label input {
+form label input {
   border: 1px solid transparent;
   border-radius: 10px;
   padding: 10px 20px;
@@ -271,46 +266,43 @@ label input {
   transition: background-color 0.5s, border 0.5s;
   color: black;
 }
-label input:hover {
+form label input:hover {
   background-color: #454045;
   border: 1px solid #f3f3f4;
   box-shadow: 0 0 4px #754a4a;
 }
-label input:focus {
+form label input:focus {
   background-color: #212121;
   border: 1px solid #f3f3f4;
   box-shadow: 0 0 4px #754a4a;
 }
-label span {
+form label span {
   font-weight: 700;
   font-size: 1.2rem;
   color: rgb(6, 6, 6);
   background-image: linear-gradient(to bottom, rgb(36, 3, 250), grey);
 }
-
-.checkbox {
+form .checkbox {
   display: flex;
   flex-direction: row;
 }
-.checkbox input[type="checkbox"] {
+form .checkbox input[type=checkbox] {
   width: 20px;
 }
-.checkbox span {
+form .checkbox span {
   font-weight: 400;
 }
-
-.legales {
+form .legales {
   display: flex;
   flex-direction: column;
   gap: 15px;
   margin-top: 25px;
   font-size: 1.2rem;
 }
-.legales button {
+form .legales button {
   margin-inline: auto;
 }
-
-.submit {
+form .submit {
   background-color: orange;
   font-weight: 400;
   border-radius: 10px;
@@ -320,8 +312,11 @@ label span {
   font-family: Arial, Helvetica, sans-serif;
   cursor: pointer;
 }
-.submit:hover {
+form .submit:hover {
   opacity: 0.6;
+}
+form #politica {
+  margin: 10px;
 }
 
 .legales span {
@@ -337,15 +332,11 @@ label span {
   font-weight: 900;
 }
 
-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-image: linear-gradient(to left, orange, white);
-  border-radius: 5px;
-}
-
-#politica {
-  margin: 10px;
+.slogan {
+  font-size: 1.4rem;
+  text-align: center;
+  background-color: #f9b804;
+  color: black;
 }
 
 h2 {
@@ -358,7 +349,6 @@ h2 {
   margin-right: 20%;
 }
 
-/* Estilos para las tarjetas */
 .tarjetas {
   display: flex;
   flex-wrap: wrap;
@@ -372,12 +362,11 @@ h2 {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  max-width: 500px; /* Aumenta el ancho máximo de la tarjeta */
+  max-width: 500px;
   text-align: center;
   overflow: hidden;
   transition: transform 0.2s;
 }
-
 .tarjeta:hover {
   transform: scale(1.05);
 }
@@ -387,7 +376,7 @@ h2 {
   height: auto;
   max-height: 600px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   border: 5px solid #f9b804;
 }
 
@@ -407,6 +396,13 @@ h2 {
   margin: 0;
 }
 
+.slogan {
+  font-size: 1.4rem;
+  text-align: center;
+  background-color: #f9b804;
+  color: black;
+}
+
 h2 {
   color: white;
   text-align: center;
@@ -417,20 +413,6 @@ h2 {
   margin-right: 20%;
 }
 
-.confianza h4 {
-  font-size: 2.1rem;
-  color: #4542ea;
-  margin-top: 0%;
-  margin-bottom: 0%;
-}
-
-.confianza p {
-  font-size: 1.4rem;
-  color: #070707;
-  line-height: 1.5;
-  margin-bottom: 0%;
-}
-
 .confianza {
   background-color: rgba(220, 209, 133, 0.9);
   border-radius: 15px;
@@ -439,6 +421,18 @@ h2 {
   max-width: 800px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   text-align: center;
+}
+.confianza h4 {
+  font-size: 2.1rem;
+  color: #4542ea;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.confianza p {
+  font-size: 1.4rem;
+  color: #070707;
+  line-height: 1.5;
+  margin-bottom: 0;
 }
 
 .sustentabilidad {
@@ -453,10 +447,16 @@ h2 {
   border: #fbfbfd solid;
   border-radius: 2%;
 }
-
-h5 {
+.sustentabilidad h5 {
   font-size: 1.8rem;
   text-align: center;
+}
+
+.slogan {
+  font-size: 1.4rem;
+  text-align: center;
+  background-color: #f9b804;
+  color: black;
 }
 
 h2 {
@@ -469,41 +469,50 @@ h2 {
   margin-right: 20%;
 }
 
-.encabezado {
-  background-color: rgba(220, 209, 133, 0.9);
-  border-radius: 15px;
-  padding: 15px;
-  margin: 5px auto;
-  max-width: 800px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  text-align: center;
-  font-size: 1.4rem;
-  margin-bottom: 2%;
+main {
+  background-color: #f2f2f2;
+  padding: 20px;
 }
 
 .precios {
-  background-color: rgb(255, 255, 255);
-  padding: 10px;
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
   border-radius: 8px;
-  margin-bottom: 20px;
-  margin-right: 20%;
-  margin-left: 20%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+}
+
+.precios h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #333;
 }
 
 .price-table {
   width: 100%;
   border-collapse: collapse;
+  margin-top: 20px;
 }
 
 .price-table th,
 .price-table td {
   border: 1px solid #ddd;
-  padding: 8px;
+  padding: 10px;
   text-align: left;
 }
 
 .price-table th {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+}
+
+.slogan {
+  font-size: 1.4rem;
+  text-align: center;
+  background-color: #f9b804;
+  color: black;
 }
 
 @media only screen and (max-width: 480px) {
@@ -511,18 +520,15 @@ h2 {
     background-size: contain;
     background-position: center;
   }
-
   .cabecera {
     flex-direction: column;
     align-items: center;
     padding: 10px;
   }
-
   h1 {
     font-size: 1.8rem;
     margin-top: 10%;
   }
-
   nav {
     width: 40%;
   }
@@ -538,14 +544,13 @@ h2 {
     padding: 4px;
     font-size: 1rem;
   }
-
   .redesSociales svg {
-    height: 33px;
-    width: 33px;
+    height: 30px;
+    width: 30px;
   }
   .slogan {
     font-size: 0.9rem;
-    margin-top: 11%;
+    margin-top: 13%;
   }
 }
 /*Responsive Pagina Accesorios*/
@@ -665,7 +670,6 @@ h2 {
     font-size: 1rem;
   }
 }
-
 /*Responsive index*/
 @media only screen and (max-width: 480px) {
   .cabecera {
@@ -673,12 +677,10 @@ h2 {
     align-items: center;
     padding: 10px;
   }
-
   h1 {
     font-size: 1.8rem;
     margin-top: 10%;
   }
-
   nav {
     width: 40%;
   }
@@ -821,59 +823,41 @@ h2 {
     background-size: contain;
     background-position: center;
   }
-
   header {
     flex-direction: column;
     justify-content: space-between;
   }
-
   nav {
     margin-left: 2%;
-
-    ul {
-      a {
-        font-size: 1rem;
-      }
-    }
   }
-
-  label {
-    span {
-      font-size: 1rem;
-    }
+  nav ul a {
+    font-size: 1rem;
   }
-
+  label span {
+    font-size: 1rem;
+  }
   h1 {
     font-size: 1.9rem;
   }
-
   .redesSociales {
     width: 70%;
     margin-top: 0%;
     margin-bottom: 0%;
-
-    svg {
-      height: 5%;
-      width: 5%;
-      margin-bottom: 5%;
-    }
   }
-
-  .ubicacion {
-    p {
-      font-size: 1rem;
-      padding: 0px 0px;
-    }
+  .redesSociales svg {
+    height: 5%;
+    width: 5%;
+    margin-bottom: 5%;
   }
-
+  .ubicacion p {
+    font-size: 1rem;
+    padding: 0px 0px;
+  }
   .slogan {
     font-size: 1rem;
     margin-top: 4%;
   }
-
   footer {
     padding: 0%;
   }
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
