@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  background-image: url(../medios/imagenProyecto.jpg);
+  background-image: url(../medios/portadatoyota.jpg);
   backdrop-filter: brightness(80%);
   background-size: cover;
   display: flex;
@@ -17,7 +17,7 @@ body {
 }
 
 #portada {
-  background-image: url(./medios/portadatoyota.jpg);
+  background-image: url(../medios/imagenProyecto.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: $color-portada;

@@ -1,18 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
-#portada {
-  background-image: url(../medios/imagenProyecto.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: rgb(249, 249, 251);
-  opacity: 0.9;
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
 header {
+  background-image: linear-gradient(to left, orange, white);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -68,7 +57,7 @@ html {
 }
 
 body {
-  background-image: url(../medios/imagenProyecto.jpg);
+  background-image: url(../medios/portadatoyota.jpg);
   -webkit-backdrop-filter: brightness(80%);
           backdrop-filter: brightness(80%);
   background-size: cover;
@@ -80,7 +69,7 @@ body {
 }
 
 #portada {
-  background-image: url(./medios/portadatoyota.jpg);
+  background-image: url(../medios/imagenProyecto.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: rgb(249, 249, 251);
@@ -152,7 +141,9 @@ footer {
 }
 footer .ubicacion p {
   margin: 5px 0;
-  font-size: 1.4rem;
+  font-size: 1rem;
+  margin-top: 0%;
+  margin-bottom: 0%;
 }
 footer a {
   display: inline-block;
@@ -470,7 +461,6 @@ h2 {
 }
 
 main {
-  background-color: #f2f2f2;
   padding: 20px;
 }
 

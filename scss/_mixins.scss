@@ -1,18 +1,1 @@
-@mixin rounded($radius) {
-  border-radius: $radius;
-}
 
-@mixin flex-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-@mixin link-style($padding, $bg-gradient, $border-radius, $font-size) {
-  display: inline-block;
-  padding: $padding;
-  background-image: $bg-gradient;
-  border-radius: $border-radius;
-  font-size: $font-size;
-  text-decoration: none;
-}
