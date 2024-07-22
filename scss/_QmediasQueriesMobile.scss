@@ -311,10 +311,14 @@
   font-size: 1.1rem;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   body {
     background-size: contain;
     background-position: center;
+  }
+
+  header {
+    display: inline-block;
   }
 
   h2 {
