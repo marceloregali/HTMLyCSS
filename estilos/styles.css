@@ -154,16 +154,6 @@ footer a {
   text-decoration: none;
 }
 
-h2 {
-  color: white;
-  text-align: center;
-  background-image: linear-gradient(to bottom, rgb(36, 3, 250), grey);
-  font-size: 2.2rem;
-  border-radius: 10%;
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
 ul {
   color: white;
   text-decoration: none;
@@ -194,23 +184,6 @@ ul {
 .contenedor .autos,
 .contenedor .camioneta {
   flex-basis: 45%;
-}
-
-.slogan {
-  font-size: 1.4rem;
-  text-align: center;
-  background-color: #f9b804;
-  color: black;
-}
-
-h2 {
-  color: white;
-  text-align: center;
-  background-image: linear-gradient(to bottom, rgb(36, 3, 250), grey);
-  font-size: 2.2rem;
-  border-radius: 10%;
-  margin-left: 20%;
-  margin-right: 20%;
 }
 
 .buttons {
@@ -271,7 +244,7 @@ form label span {
   font-weight: 700;
   font-size: 1.2rem;
   color: rgb(6, 6, 6);
-  background-image: linear-gradient(to bottom, rgb(36, 3, 250), grey);
+  background-image: linear-gradient(to bottom, rgb(237, 236, 244), grey);
 }
 form .checkbox {
   display: flex;
@@ -318,16 +291,9 @@ form #politica {
   font-size: 1.4rem;
 }
 .legales span a {
-  color: rgb(4, 16, 250);
+  color: rgb(241, 241, 243);
   text-decoration: none;
   font-weight: 900;
-}
-
-.slogan {
-  font-size: 1.4rem;
-  text-align: center;
-  background-color: #f9b804;
-  color: black;
 }
 
 h2 {
@@ -387,23 +353,6 @@ h2 {
   margin: 0;
 }
 
-.slogan {
-  font-size: 1.4rem;
-  text-align: center;
-  background-color: #f9b804;
-  color: black;
-}
-
-h2 {
-  color: white;
-  text-align: center;
-  background-image: linear-gradient(to bottom, rgb(36, 3, 250), grey);
-  font-size: 2.2rem;
-  border-radius: 10%;
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
 .confianza {
   background-color: rgba(220, 209, 133, 0.9);
   border-radius: 15px;
@@ -443,23 +392,6 @@ h2 {
   text-align: center;
 }
 
-.slogan {
-  font-size: 1.4rem;
-  text-align: center;
-  background-color: #f9b804;
-  color: black;
-}
-
-h2 {
-  color: white;
-  text-align: center;
-  background-image: linear-gradient(to bottom, rgb(36, 3, 250), grey);
-  font-size: 2.2rem;
-  border-radius: 10%;
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
 main {
   padding: 20px;
 }
@@ -496,13 +428,6 @@ main {
   background-color: #f2f2f2;
   color: #333;
   font-weight: bold;
-}
-
-.slogan {
-  font-size: 1.4rem;
-  text-align: center;
-  background-color: #f9b804;
-  color: black;
 }
 
 @media only screen and (max-width: 480px) {
@@ -593,6 +518,7 @@ main {
 @media only screen and (max-width: 480px) {
   .sustentabilidad {
     font-size: 1rem;
+    padding: 2%;
   }
   h5 {
     font-size: 1.2rem;
@@ -778,7 +704,9 @@ main {
     align-items: center;
   }
   .legales span {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
+    color: rgb(248, 247, 247);
+    background-color: rgba(31, 30, 30, 0.7);
   }
   .legales button {
     margin: 15px 0px;
@@ -813,9 +741,11 @@ main {
     background-size: contain;
     background-position: center;
   }
-  header {
-    flex-direction: column;
-    justify-content: space-between;
+  h2 {
+    font-size: 1.6rem;
+  }
+  .confianza p {
+    font-size: 1.1rem;
   }
   nav {
     margin-left: 2%;
@@ -827,7 +757,11 @@ main {
     font-size: 1rem;
   }
   h1 {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
+    margin-bottom: 1%;
+  }
+  .tarjeta p {
+    font-size: 1.2rem;
   }
   .redesSociales {
     width: 70%;
@@ -845,9 +779,27 @@ main {
   }
   .slogan {
     font-size: 1rem;
-    margin-top: 4%;
   }
   footer {
     padding: 0%;
+  }
+  footer a {
+    font-size: 0.7rem;
+    padding: 5px 10px;
+  }
+  .sustentabilidad {
+    padding: 1%;
+  }
+  .sustentabilidad p {
+    font-size: 1.2rem;
+  }
+  .im img {
+    height: 80%;
+    width: 80%;
+    border-radius: 15%;
+    margin-right: 1%;
+  }
+  ul li {
+    font-size: 1.2rem;
   }
 }/*# sourceMappingURL=styles.css.map */

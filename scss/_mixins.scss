@@ -1,1 +1,13 @@
+@mixin gradient-bg($start, $end) {
+  background: linear-gradient(to left, $start, $end);
+}
 
+@mixin rounded($radius) {
+  border-radius: $radius;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

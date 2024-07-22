@@ -1,8 +1,6 @@
 footer {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex-center;
   background-color: $footer-bg-color;
   color: $footer-text-color;
   padding: 20px 0;
@@ -19,8 +17,8 @@ footer {
   a {
     display: inline-block;
     padding: $link-padding;
-    background-image: $link-bg-gradient;
-    border-radius: $link-border-radius;
+    @include gradient-bg($link-bg-start-color, $link-bg-end-color);
+    @include rounded($link-border-radius);
     font-size: $link-font-size;
     text-decoration: none;
   }
